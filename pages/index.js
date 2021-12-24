@@ -52,9 +52,9 @@ const Page = () => {
                         Work
                     </Heading>
                     <Paragraph>
-                        I'm Jake Grogan, a DCU computer science graduate from Dublin, Ireland. I'm currently working as a software engineer at{' '}<Link href="https://www.evervault.com">Evervault</Link>.
-                        I'm working as part of a small, yet growing team, building software that makes it easy for developers to encrypt & process sensitive data without it touching your app in plaintext!
-                        I'm also a certified AWS Solutions Architect! My interests lie in distributed systems, cloud computing, and building great, customer focused solutions! Doing a lot of music in my spare time.
+                        I&apos;m Jake Grogan, a DCU computer science graduate from Dublin, Ireland. I&apos;m currently working as a software engineer at{' '}<Link href="https://www.evervault.com">Evervault</Link>.
+                        I&apos;m working as part of a small, yet growing team, building software that makes it easy for developers to encrypt & process sensitive data without it touching your app in plaintext!
+                        I&apos;m also a certified AWS Solutions Architect! My interests lie in distributed systems, cloud computing, and building great, customer focused solutions! Doing a lot of music in my spare time.
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/projects">
@@ -83,7 +83,7 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>2020</BioYear>
-                        Published a research paper - "A Multivocal Literature Review of Function-as-a-Service (FaaS) Infrastructures and Implications for Software Developers." - in Springer for EuroSPI 2020. DOI: <Link href="https://doi.org/10.1007/978-3-030-56441-4_5" target="_blank">10.1007/978-3-030-56441-4_5</Link>
+                        Published a research paper - &quot;A Multivocal Literature Review of Function-as-a-Service (FaaS) Infrastructures and Implications for Software Developers.&quot; - in Springer for EuroSPI 2020. DOI: <Link href="https://doi.org/10.1007/978-3-030-56441-4_5" target="_blank">10.1007/978-3-030-56441-4_5</Link>
                     </BioSection>
                     <BioSection>
                         <BioYear>2020</BioYear>
