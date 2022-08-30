@@ -4,7 +4,8 @@ import { mode } from '@chakra-ui/theme-tools';
 const styles = {
     global: props => ({
         body: {
-            bg: mode('#f0e7db', '#202023')(props)
+            bg: mode('#fffdf7', '#202023')(props),
+            fontFamily: 'PT Serif, serif'
         }
     })
 }
@@ -19,9 +20,15 @@ const components = {
                 textDecorationColor: '#525252',
                 textDecorationThickness: 4,
                 marginTop: 3,
-                marginBottom: 4
+                marginBottom: 4,
+                fontFamily: 'PT Serif, serif'
+            },
+            'page-title': {
+                fontFamily: 'PT Serif, serif',
+                fontSize: 61,
             }
         }
+        
     },
     Link: {
         baseStyle: props => ({
@@ -32,7 +39,7 @@ const components = {
 }
 
 const fonts = {
-    header: "'M PLUS roudned 1c'"
+    header: "'PT Serif, serif'"
 }
 
 const colors = {
@@ -40,7 +47,7 @@ const colors = {
 }
 
 const config = {
-    initialColorMode: 'dark',
+    initialColorMode: 'light',
     useSystemColorMode: false
 }
 

@@ -4,11 +4,11 @@ import styled from '@emotion/styled';
 
 const LogoBox = styled.span`
 font-weight: bold;
-font-size: 18px;
+font-size: 30px;
 display: inline-flex;
 align-item: center;
 height: 30px;
-line-height: 20px;
+line-height: 24px;
 padding: 10px;
 `
 
@@ -18,8 +18,7 @@ const Logo = () => {
             <a>
                 <LogoBox>
                     <Text color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-                      fontFamily='M PLUS Rounded 1c'
-                      fontWeight="Bold"
+                      fontFamily='PT Serif, serif'
                       ml={3}
                     >
                         Jake Grogan
