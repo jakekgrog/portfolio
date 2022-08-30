@@ -1,14 +1,7 @@
 import Head from 'next/head';
-import { Box, Container, Icon, Heading, SimpleGrid, Link, Button } from '@chakra-ui/react';
-import Section from '../section';
-import {
-    IoLogoTwitter,
-    IoLogoGithub,
-    IoLogoLinkedin
-} from 'react-icons/io5';
-import Layout from '../layouts/article'
+import { Box, Container } from '@chakra-ui/react';
 
-const Main = ({ children, router }) => {
+const Main = ({ children }) => {
     return (
         <Box as="main">
             <Head>
