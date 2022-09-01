@@ -49,7 +49,7 @@ const Page = () => {
 
                     <Section delay={0.1}>
                         <Heading as="h3" variant="section-title">
-                            Work
+                            Bio
                         </Heading>
                         <Paragraph>
                             I&apos;m Jake Grogan, a DCU computer science graduate from Dublin, Ireland. I&apos;m currently working as a software engineer at{' '}<Link href="https://www.evervault.com">Evervault</Link>.
@@ -60,7 +60,7 @@ const Page = () => {
                     
                     <Section delay={0.2}>
                         <Heading as="h3" variant="section-title" >
-                            Bio
+                            Work
                         </Heading>
                         <BioSection>
                             <BioYear>2021 - Present</BioYear>
