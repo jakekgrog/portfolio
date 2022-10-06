@@ -37,6 +37,57 @@ const Page = () => {
                         className='pic'
                         />
                     </Box>
+                    <Box
+                      flexShrink={0}
+                      ml={{ md: 14, sm: 14 }}
+                      mt={{ md: 5, sm: 5 }}
+                      align="left"
+                      className="pic-container"
+                    >
+                        <Section delay={0.3}>
+                                <Heading as="h3" variant="section-title">
+                                    On the web
+                                </Heading>
+                                <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                                <li style={{ marginBottom: 5 }}>
+                                <Link  href="https://github.com/jakekgrog" target="_blank">
+                                        <p style={{verticalAlign: "middle", color: '#2C7A7B'}}>
+                                            <span style={{verticalAlign: "middle"}}>
+                                                <Icon boxSize='1.3em' as={IoLogoGithub} />
+                                            </span>
+                                            <strong>
+                                            &nbsp;@jakekgrog
+                                            </strong>
+                                        </p>
+                                </Link>
+                                </li>
+                                <li style={{ marginBottom: 5 }}>
+                                <Link href="https://www.linkedin.com/in/jakegrogan/" target="_blank">
+                                    <p style={{verticalAlign: "middle", color: '#2C7A7B'}}>
+                                        <span style={{verticalAlign: "middle"}}>
+                                            <Icon boxSize='1.3em' as={IoLogoLinkedin} />
+                                        </span>
+                                        <strong>
+                                        &nbsp;&nbsp;Jake Grogan
+                                        </strong>
+                                    </p>
+                                </Link>
+                                </li>
+                                <li style={{ marginBottom: 5 }}>
+                                <Link href="https://twitter.com/jakekgrog" target="_blank">
+                                    <p style={{verticalAlign: "middle", color: '#2C7A7B'}}>
+                                        <span style={{verticalAlign: "middle"}}>
+                                            <Icon boxSize='1.3em' as={IoLogoTwitter} />
+                                        </span>
+                                        <strong>
+                                        &nbsp;@jakekgrog
+                                        </strong>
+                                    </p>
+                                </Link>
+                                </li>
+                                </ul>
+                            </Section>   
+                    </Box>
                 </div>
                 <div className='item'>
                     <Box display={{ md: 'flex' }} className="pic-container">
@@ -90,35 +141,8 @@ const Page = () => {
                             <BioYear>2017</BioYear>
                             Interned on a scholarship with Liberty Information Technology as a Software Engineering Intern.
                         </BioSection>
-                        
-                        
-                        
-                        
-                        
-                        
                     </Section>
-                    <Box>
-                            <Section delay={0.3}>
-                                <Heading as="h3" variant="section-title">
-                                    On the web
-                                </Heading>
-                                <Link href="https://github.com/jakekgrog" target="_blank">
-                                    <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>
-                                        @jakekgrog
-                                    </Button>
-                                </Link>
-                                <Link href="https://twitter.com/jakekgrog" target="_blank">
-                                    <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>
-                                        @jakekgrog
-                                    </Button>
-                                </Link>
-                                <Link href="https://www.linkedin.com/in/jakegrogan/" target="_blank">
-                                    <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin} />}>
-                                        Jake Grogan
-                                    </Button>
-                                </Link>
-                            </Section>
-                        </Box>
+                    
                 </div>
             </div>
         </Layout>
